@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>Bridge.Commons.Notification</PackageId>
+        <Title>Bridge.Commons.Notification</Title>
+        <Version>1.0.0</Version>
+        <Authors>Robson Leao</Authors>
+        <Company>Bridge Core</Company>
+        <Description>
+            Notification Package: Email, SMS, PushNotification etc.
+        </Description>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageReleaseNotes>First Version</PackageReleaseNotes>
+        <PackageTags>bridge-core commons notification email sms push</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+    </ItemGroup>
+
+</Project>
